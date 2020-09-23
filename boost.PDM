@@ -1,0 +1,196 @@
+[Root]
+Most Recent Package=EasyReg
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Sundar\boost\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+E:\Sundar\boost\EasyReg.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\Sundar\boost\EasyReg.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\Sundar\boost\EasyReg.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=EasyReg
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=EasyReg
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|EasyReg]
+Icon1=EasyReg.exe
+Title1=EasyReg
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\Sundar\boost\Package
+ProjectFolder=E:\Sundar\boost
+ServerSideCab=
+File1=E:\Sundar\boost\Package\setup.exe
+File2=E:\Sundar\boost\Package\Setup.Lst
+File3=E:\Sundar\boost\Package\EasyRe1.CAB
+File4=E:\Sundar\boost\Package\EasyRe2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+
+[Package|EasyReg|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Sundar\boost_finished\Package
+
+[Package|EasyReg|Configure DAO ISAMs]
+Applicable=No
+
+[Package|EasyReg|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|EasyReg|Files Found]
+
+[Package|EasyReg|Files Released]
+
+[Package|EasyReg|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\swflash.ocx=
+
+[Package|EasyReg|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=
+
+[Package|EasyReg|Files Added]
+
+[Package|EasyReg|Files Removed]
+c:\windows\system\swflash.ocx=
+
+[Package|EasyReg|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Sundar\boost_finished\EasyReg.exe=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\swflash.ocx=No
+
+[Package|EasyReg|Configure Registry Files]
+Applicable=No
+
+[Package|EasyReg|Configure Remote Servers]
+Applicable=No
+
+[Package|EasyReg|Install Locations]
+E:\Sundar\boost\EasyReg.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Sundar\boost_final\EasyReg.exe=$(AppPath)
+E:\Sundar\boost_finished\EasyReg.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+
+[Package|EasyReg|Configure Shared Files]
+Applicable=Yes
+E:\Sundar\boost\EasyReg.exe=No
+E:\Sundar\boost_final\EasyReg.exe=No
+E:\Sundar\boost_finished\EasyReg.exe=No
+
+[Package|EasyReg|Distribution]
+Type=multi
+Size=1.44 MB
+Title=EasyReg ver 1.0
+
+[Package|EasyReg|IconGroups]
+Group0=EasyReg
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|EasyReg|EasyReg]
+Icon1=EasyReg.exe
+Title1=EasyReg
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|EasyReg|Package]
+PackageFolder=E:\Sundar\boost_finished\Package
+ProjectFolder=E:\Sundar\boost_finished
+ServerSideCab=
+File1=E:\Sundar\boost_finished\Package\setup.exe
+File2=E:\Sundar\boost_finished\Package\Setup.Lst
+File3=E:\Sundar\boost_finished\Package\EasyRe1.CAB
+File4=E:\Sundar\boost_finished\Package\EasyRe2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
